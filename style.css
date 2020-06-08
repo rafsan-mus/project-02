@@ -1,0 +1,111 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+.firstSection{
+	background: rgba(0,0,0,.006);
+	padding-top:100px;
+	padding-bottom:0px;
+	}
+
+
+.firstSectionContent img{
+	max-width:100%;
+	margin:0 auto;
+	opacity: .9;
+	}
+
+.text{
+	text-align: center;
+	}
+
+.text h1{
+	font-size:35px;
+	}
+
+.secondSectionBody{
+	background: rgba(0,0,0,.006);
+	}
+
+.social{
+	text-align: center;
+	padding-top:5px;
+	padding-bottom:30px;
+	margin-bottom: 40px;
+	}
+
+.social i{
+	color:rgba(0,0,0,.7);
+	font-size:300%;
+	padding:4px;
+	transition:1s;
+	}
+
+.social i:hover{
+	box-shadow:0px 0px 2px rgba(0,0,0,.4);
+	}
+
+.contactSection{
+	background-color:rgba(0,0,0,.7);
+	text-align: center;
+	color:white;
+	padding-top:40px;
+	padding-bottom:40px;
+	border-top-right-radius:50px;
+	}
+
+.contactHead h1{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 25px;
+	font-weight: lighter;
+	}
+
+.inpt{
+	margin-bottom: 10px;
+	}
+
+.btnCs{
+	font-family: 'Josefin Sans', sans-serif;
+	border:none;
+	background:rgba(0,0,0,.45); 
+	color:white;
+	letter-spacing: 2px;
+	padding:10px 0px;
+	margin-top:10px;
+	}
+
+.btnCs:hover{
+	background:rgba(0,0,0,.42); 
+	color:white;
+	}
+
+.formBox{
+	margin-top:20px;
+	}
+
+@media (min-width: 319px) and (max-width: 375px){
+
+	.text h1{
+	font-size:26px;
+	}
+
+	.contactHead h1 {
+    font-size: 30px;
+	}
+	
+	.btnCs {
+    font-size: 16px;
+	}
+
+	.social {
+    margin-bottom: 19px;
+	}
+
+	.firstSection {
+    padding-top: 60px;
+	}
+	.contactSection {
+    padding-top: 17px;
+	}
+}
